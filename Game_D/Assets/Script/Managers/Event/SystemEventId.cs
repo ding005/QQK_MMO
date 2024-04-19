@@ -4,9 +4,8 @@ using UnityEngine;
 
 namespace Pudding
 {
-    public abstract class ManagerBase
+    public class SystemEventId : MonoBehaviour
     {
-        public abstract void Init();
-
+        public const ushort LoadDataTableComplete = 10001;
     }
 }
